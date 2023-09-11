@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A1C102E02A987DC0000D91E7 /* blood_pressureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C102DF2A987DC0000D91E7 /* blood_pressureApp.swift */; };
-		A1C102E22A987DC0000D91E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C102E12A987DC0000D91E7 /* ContentView.swift */; };
+		A1C102E22A987DC0000D91E7 /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C102E12A987DC0000D91E7 /* BloodPressure.swift */; };
 		A1C102E42A987DC1000D91E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C102E32A987DC1000D91E7 /* Assets.xcassets */; };
 		A1C102E72A987DC1000D91E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C102E62A987DC1000D91E7 /* Preview Assets.xcassets */; };
+		A1C1030F2AA1AD9E000D91E7 /* BloodPressure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1C1030D2AA1AD9E000D91E7 /* BloodPressure.xcdatamodeld */; };
+		A1C103112AA1B771000D91E7 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C103102AA1B771000D91E7 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1C102DC2A987DC0000D91E7 /* blood pressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blood pressure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C102DF2A987DC0000D91E7 /* blood_pressureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blood_pressureApp.swift; sourceTree = "<group>"; };
-		A1C102E12A987DC0000D91E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C102E12A987DC0000D91E7 /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
 		A1C102E32A987DC1000D91E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C102E62A987DC1000D91E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1C1030E2AA1AD9E000D91E7 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A1C103102AA1B771000D91E7 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				A1C102DF2A987DC0000D91E7 /* blood_pressureApp.swift */,
-				A1C102E12A987DC0000D91E7 /* ContentView.swift */,
+				A1C102E12A987DC0000D91E7 /* BloodPressure.swift */,
 				A1C102E32A987DC1000D91E7 /* Assets.xcassets */,
+				A1C1030D2AA1AD9E000D91E7 /* BloodPressure.xcdatamodeld */,
 				A1C102E52A987DC1000D91E7 /* Preview Content */,
+				A1C103102AA1B771000D91E7 /* data.swift */,
 			);
 			path = "blood pressure";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C102E22A987DC0000D91E7 /* ContentView.swift in Sources */,
+				A1C102E22A987DC0000D91E7 /* BloodPressure.swift in Sources */,
 				A1C102E02A987DC0000D91E7 /* blood_pressureApp.swift in Sources */,
+				A1C1030F2AA1AD9E000D91E7 /* BloodPressure.xcdatamodeld in Sources */,
+				A1C103112AA1B771000D91E7 /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1C1030D2AA1AD9E000D91E7 /* BloodPressure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1C1030E2AA1AD9E000D91E7 /* Model.xcdatamodel */,
+			);
+			currentVersion = A1C1030E2AA1AD9E000D91E7 /* Model.xcdatamodel */;
+			path = BloodPressure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1C102D42A987DC0000D91E7 /* Project object */;
 }
